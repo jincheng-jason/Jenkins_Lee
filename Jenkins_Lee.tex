@@ -1,0 +1,114 @@
+%% start of file `Jenkins_Lee.tex'.
+%% Copyright 2013 Jenkins Lee.
+%
+
+\documentclass[11pt]{moderncvchn}
+
+% moderncv styles
+%\moderncvstyle{casual}       % optional argument are 'nocolor' (black & white cv) and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvstyle{classic}       % idem
+
+\usepackage{times,marvosym,url,thumbpdf}
+\usepackage{hyperref}
+% character encoding
+\usepackage[utf8]{inputenc}   % replace by the encoding you are using
+
+% personal data (the given example is exhaustive; just give what you want)
+\firstname{李} \familyname{锦程}
+\title{JAVA程序员简历}
+\address{\Writinghand ~北京市~朝阳区}  % for classic style
+%\address{12 somestreet, 3456 somecity} % for casual style
+\phone{\Mobilefone 138 1196 7296}
+\email{lijc1990@yeah.net}
+\extrainfo{\weblink{http://www.cnblogs.com/lijc1990/}}
+\photo[80pt]{lijc1990.jpg} % also optional, and the optional argument is the height the picture must be resized to
+%\quote{Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius -- and a lot of courage -- to move in the opposite direction.}% also optional
+
+%\renewcommand{\listsymbol}{{\fontencoding{U}\fontfamily{ding}\selectfont\tiny\symbol{'102}}} % define another symbol to be used in front of the list items
+
+% the ConTeXt symbol
+\def\ConTeXt{%
+  C%
+  \kern-.0333emo%
+  \kern-.0333emn%
+  \kern-.0667em\TeX%
+  \kern-.0333emt}
+
+% slanted small caps (only with roman family; the sans serif font doesn't exists :-()
+%\usepackage{slantsc}
+%\DeclareFontFamily{T1}{myfont}{}
+%\DeclareFontShape{T1}{myfont}{m}{scsl}{ <-> cork-lmssqbo8}{}
+%\usefont{T1}{myfont}{m}{scsl}Testing the font
+
+% command and color used in this document, independently from moderncv
+\definecolor{see}{rgb}{0.5,0.5,0.5}% for web links
+\newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}% for text subscripts
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+%\makequote
+
+\section{教育背景}
+\cventry{2008--2012}{本科}{通信工程专业}{长安大学}{}{}
+%%\cventry{时间}{取得的学位}{专业}{学校}{成绩排名，年级人数}{毕业时间:~2008~年~7~月}
+
+\section{关键字}
+\cvitem{}{\small J2EE Spring Struts Hibernate Mybatis ； }
+\cvitem{}{\small Scrum TDD Maven JQuery JUnit UML JVM；}
+\cvitem{}{\small python、Go；}
+\cvitem{}{\small gitHub springside4 G4Studio；}
+
+\section{工作经历}
+\cvitem{2013.4--至今}{\small 北京易视腾科技有限公司(150-500人) }
+\cvitem{平台研发部}{\small Java研发工程师}
+\cvitem{-}{\small 立项初期与项目经理、产品经理对项目工程进行建模，交付解决方案；}
+\cvitem{-}{\small 负责咪咕音乐平台项目的全部后台设计与研发；}
+\cvitem{-}{\small 与产品经理商讨产品定位以及操作流程的优化；}
+\cvitem{-}{\small 与前端工程师商讨并优化产品的前端展现以及业务流程；}
+\cvitem{-}{\small 与运营部门协调资源，为产品的持续更新做好音乐资源的运营；}
+\cvitem{-}{\small 对后台支撑系统逐步进行改良优化，加入新功能。}
+
+\cvitem{2012.2--2013.3}{\small 创想空间商务通信有限公司(150-500人)}
+\cvitem{新BOSS项目组}{\small Java研发工程师}
+\cvitem{-}{\small 参与公司新业务支撑系统的敏捷开发，与Scrum Master协同对架构设计中具体的功能模块做出HLD设计；}
+\cvitem{-}{\small 按照HLD设计方案对具体功能模块进行开发编码，按照TDD方式对自己的代码进行单元测试，确保代码的可靠性和准确性；}
+\cvitem{-}{\small 参与Scrum Team的每日代码审查，对其他成员的代码提出改良意见，采取SM和组员的良性建议对自己的代码模块进行优化和重构；}
+\cvitem{-}{\small 参与Scrum Team的迭代成果展示会，对新迭代的成果向客户代表进行展示，与客户代表沟通协商，收集客户对功能和交互的体验意见对现有成果进行改良；}
+\cvitem{-}{\small 持续学习新技术，按需运用于实际工程当中，与组员共同分享心得，培训新组员使其快速投入开发工作当中；}
+\cvitem{-}{\small 对旧业务支撑系统进行维护，处理客户提出的各种需求，参与旧系统到新系统的数据和功能模块迁移设计与实施工作，保证新系统稳定有序的逐步替换旧系统。}
+
+\section{项目经历}
+\cventry{2013.4--至今}{咪咕音乐平台项目}{咪咕音乐平台项目旨在将中国移动音乐基地咪咕音乐的音乐、MV、卡拉ok、彩铃等资源整合引进到易视腾公司的主要产品：易视宝机顶盒进行运营。用户可通过易视宝机顶盒观赏由音乐基地推送的海量正版音乐、MV，使用卡拉OK功能，还可以针对自己喜爱的歌曲进行彩铃订购、赠送，手机铃声的下载等业务。}{}{}{}
+
+\cventry{2012.2--2013.3}{QSBOSS全时新业务支撑系统}{QSBOSS全时新业务支撑系统是全时公司各种产品销售运营提供业务支撑的J2EE项目，涵盖了销售、服务，财务、计费、产品管理五大营业厅的所有业务逻辑。其表现层、业务层和持久层分别使用SpringMVC+Mybatis+Mysql进行搭建；主要使用的View层技术为JSP+JSTL+jQuery，使用丰富的jQuery插件如datatables、jQuery-alert；安全框架使用Apache Shiro进行用户认证、权限控制、密码加密和会话管理等的控制；项目管理工具使用maven管理项目的构建；项目集成和版本控制使用SVN+Hudson进行持续集成；日志管理采用log4j；单元测试采用JUnit4；各大营业厅之间使用Active MQ进行消息投递。
+此项目在开发方式上选择了Scrum敏捷开发，由各大营业厅的项目经理PO发布任务，Scrum Team成员通过任务分析，各自认领模块的开发工作，估算工作量推算出交付日期，承诺按期交付；通过快速迭代、持续交付的形式进行增量式的开发}{}{}{}
+\cventry{2012.4--2013.3}{会议密码生成与回收项目}{此项目负责生成符合规则的客户入会密码，并对已使用或已修改的过期密码和废弃密码进行回收。生成密码按照不同的会议类型，有不同的密码生成要求，并有不同的过滤规则，可指定生成一种会议密码的数量，并自动发布到数据库中。回收密码为定时任务，可通过配置文件进行配置回收的周期。此项目为J2SE项目，主要采用spring+jdbc开发}{}{}{}
+\cventry{2012.6--2013.3}{邮件营销项目}{邮件营销项目使用Spring的javamail和quartz定时器实现定时向公司客户发送营销邮件的功能，并对公司各应用产品平台提供邮件营销接口，各产品应用平台可通过此接口实现针对不同产品模板的邮件营销。邮件营销系统使用soap协议进行接口的通信}{}{}{}
+%\cventry{时间}{顶目描述}{地点}{其它}{主要工作描述}{可供参考的资料，如个人网站等}
+
+\section{语言能力}
+%\cvlanguage{普通话}{母语}{经常担任产品演示解说以及与客户代表沟通业务实现的任务}
+%\cvlanguage{French}{熟练}{较好的读说听写能力}
+\cvlanguage{英语}{CET6}{擅长听、读、写，正在努力改进英语表达部分.}
+
+\section{业余爱好}
+\cvitem{开源}{\small 关注各种有趣的开源项目(gitHub) \url{https://github.com/lijc1990}}
+%\cvitem{游戏}{\small 如DOTA、忍者(页游)以及各种IOS、Android手游}
+\cvitem{音乐}{\small 爱好NEW AGE，擅长民乐，二胡九级}
+\cvitem{美食}{\small 自学烹饪，吃货九级}
+%\cvitem{运动}{\small 各种球类运动，小球类擅长网球、台球、乒乓，大球类擅长足球，篮球一般}
+%\cvitem{其它}{其它描述。。。}
+
+\emptysection{Powered by \normalfont\textit{\LaTeX}}
+%\cvitem{Now}{Back to moderncv layout, without making a new section :-)}
+
+\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{your_publications}
+
+\end{document}
+
+
+%% end of file `Jenkins_Lee.tex'.
